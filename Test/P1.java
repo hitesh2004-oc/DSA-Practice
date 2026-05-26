@@ -22,19 +22,19 @@ public class P1 {
 		ad.addLast(60);
 		
 		// remove method use for delete element from ArrayDeque
-//		ad.remove(40);
+		ad.remove(40);
 		
 		// poll method use for remove element from Front end in ArrayDeque
-//		ad.poll();	
+		ad.poll();	
 		
 		// peek method use for see or print element from Front end in ArrayDeque
-//		System.out.println(ad.peek());
+		System.out.println(ad.peek());
 		
 		// pollFirst method use for remove element from Front end in ArrayDeque
-//		ad.pollFirst();
+		ad.pollFirst();
 		
 		// pollFirst method use for remove element from Rear end in ArrayDeque
-//		ad.pollLast();
+		ad.pollLast();
 		
 		ad.pop();
 //		ad.push(null);
