@@ -10,12 +10,12 @@ public class Main {
         
         while(true) {
         	System.out.println("--------S M S-------");
-        	System.out.println("1) Add Students");
-        	System.out.println("2) View Students");
-        	System.out.println("3) Search Students");
-        	System.out.println("4) Update Students");
-        	System.out.println("5) Delete Students");
-        	System.out.println("6) Exit");
+        	System.out.println("1) Add Students :- ");
+        	System.out.println("2) View Students :- ");
+        	System.out.println("3) Search Students :- ");
+        	System.out.println("4) Update Students :- ");
+        	System.out.println("5) Delete Students :- ");
+        	System.out.println("6) Exit :- ");
         	
         	System.out.println("Enter Choice: ");
         	int choice = sc.nextInt();
