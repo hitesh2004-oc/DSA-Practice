@@ -2,10 +2,10 @@ package Recursive;
 
 class P1 {
     public static int factorial(int n){
-        // Base case
+        // Base case(For End Recursion)
         if(n == 0) return 1;
         
-        // Recursive case
+        // Recursive case(For Repeating Recursion)
         int aff = factorial(n-1);
         return n * aff;
     }
