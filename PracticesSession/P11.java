@@ -6,6 +6,7 @@ import java.util.List;
 public class P11 {
 	public static void main(String[] args) {
 		int n = 5;
+		// We use Two List one for 2d list and other is 1d ArrayList
 		List<List<Integer>> l = new ArrayList<>();
 		List<Integer> prev = new ArrayList<>();
 		prev.add(1);
