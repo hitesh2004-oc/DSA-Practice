@@ -5,7 +5,7 @@ import java.util.List;
 
 public class P16 {
 	static void f(int arr[], int i, List<Integer> temp) {
-		// BC
+		// BC (Base Case) For Stop
 		if(i == arr.length) {
 			System.out.print("Subset is: ");
 		for(int el:temp){
@@ -14,7 +14,7 @@ public class P16 {
 		 System.out.println();
 		return;
 		}
-		// RC
+		// RC(Recursive Case) For Repeat
 		//Include
 		temp. add (arr [i] );
 		f(arr, i+1, temp);
