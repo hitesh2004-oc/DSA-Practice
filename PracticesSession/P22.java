@@ -9,6 +9,7 @@ public class P22 {
 //		int a2 = Integer.parseInt(s2);
 //		
 //		int c = a1+a2;
+		// Addition of Two String without Using Inbuilt Method 
 		String str = "";
 		for(int i = s1.length() - 1; i>=0;i--) {
 			for(int j = s2.length()-1 ; j>= 0; j--) {
