@@ -1,7 +1,5 @@
 package PracticeProject;
-
 import java.util.ArrayList;
-
 public class StudentService {
 	ArrayList<Student> al = new ArrayList<>();
 	// for add Students 
@@ -9,7 +7,6 @@ public class StudentService {
 		al.add(s);
 		System.out.println("Student Successfull!");
 	}
-
 	// For View All Students 
 	public void viewStudent() {
 		if(al.isEmpty()) {
@@ -39,7 +36,6 @@ public class StudentService {
 			System.out.println("Student Deleted!");
 		}else System.out.println("Student Not Found!");
 	}
-
 	// For Update Students 
 	public void updateStudent(int id,String name,int age, String city) {
 		Student s = searchStudent(id);
