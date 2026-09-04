@@ -1,6 +1,7 @@
 package LinkedListPractice;
 
 public class P1 {
+	// Head Node
 	Node head;
 	private int size;
 	P1(){
@@ -27,7 +28,7 @@ public class P1 {
 		newNode.next = head;
 		head = newNode;
 	}
-	
+	// Add Node at Last of LinkedList
 	public void addLast(String data) {
 		Node newNode = new Node(data);
 		if(head == null) {
